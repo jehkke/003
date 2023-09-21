@@ -6,7 +6,6 @@
 int main(void) {
 	int a;
 	int b;
-	float i;
 	
 	printf("enter a numerator: ");
 	scanf("%d", &a);
@@ -14,7 +13,6 @@ int main(void) {
 	printf ("enter a demoniator: ");
 	scanf("%d", &b);
 	
-	i= (float)a/b;
-	printf("The result of division is %f\n",i);
+	printf("The result of division is %f\n",(float)a/b);
 	system("PAUSE");
 }
