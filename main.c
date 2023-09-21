@@ -4,11 +4,17 @@
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(void) {
-	char c;
+	int a;
+	int b;
+	float i;
 	
-	printf("input a character :");
-	scanf("%c", &c);
+	printf("enter a numerator: ");
+	scanf("%d", &a);
 	
-	printf("The next character of %c(%d) is %c (%d)\n", c, c, c+1, c+1);
+	printf ("enter a demoniator: ");
+	scanf("%d", &b);
+	
+	i= (float)a/b;
+	printf("The result of division is %f\n",i);
 	system("PAUSE");
 }
